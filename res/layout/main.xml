@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:orientation="vertical" android:weightSum="1">
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Load Image"
+            android:id="@+id/loadImage" android:layout_gravity="center_horizontal"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Image Path"
+            android:id="@+id/imagePath" android:layout_gravity="center_horizontal" android:singleLine="false"/>
+    <ImageView
+            android:layout_width="223dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/selectedImage" android:layout_gravity="center_horizontal" android:layout_weight="0.50"/>
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jump to 2nd screen"
+            android:id="@+id/secondScreenEntrance" android:layout_gravity="center_horizontal"/>
+</LinearLayout>
+
